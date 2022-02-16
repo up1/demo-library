@@ -33,7 +33,8 @@ android {
 
 dependencies {
 
-    implementation project(path: ':hello-module')
+//    implementation project(path: ':hello-module')
+    implementation 'com.github.up1:demo-library:0.0.1'
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.3.0'
@@ -44,7 +45,7 @@ dependencies {
 
 
 
-    
+
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
